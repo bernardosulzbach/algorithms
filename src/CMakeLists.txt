@@ -1,1 +1,1 @@
-add_library(algorithms SHARED distance.cpp distance.hpp point.cpp point.hpp)
+add_library(algorithms SHARED counting_sort.hpp distance.cpp distance.hpp point.cpp point.hpp)
