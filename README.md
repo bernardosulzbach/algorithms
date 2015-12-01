@@ -5,7 +5,9 @@ A repository with clear and readable implementations of common algorithms and da
 ## Structure
 
 `lib`: third-party libraries
+
 `src`: algorithms and data structures source code
+
 `test`: test code
 
 ## Developing and building
@@ -19,6 +21,6 @@ one or more tags. The test name must be unique.
 
 Inside a test case, use `REQUIRE` and pass to it a condition that should evaluate to true. You can also use `SECTION` to
 achieve more elaborate tests. For each `SECTION` the `TEST_CASE` is evaluated from the start. A nested `SECTION` will
-run after all its encompassing `SECTIONS`.
+run after all its encompassing `SECTION`s.
 
-Run `make test` from the `tests` directory and analyze the result. **All tests should pass**.
+**All tests should pass**.
