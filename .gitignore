@@ -1,1 +1,5 @@
+# CMake
+build/
+
+# CLion
 .idea/workspace.xml

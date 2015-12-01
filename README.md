@@ -14,6 +14,16 @@ A repository with clear and readable implementations of common algorithms and da
 
 We use (and highly recommend) CLion to work with and build this project.
 
+### Using the console
+
+To build the project and run all tests using the command line:
+
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make
+    $ ./test/tests
+
 ## Writing tests
 
 Use the `TEST_CASE` macro to define a test case. It takes one or two arguments - a free form test name and, optionally,
