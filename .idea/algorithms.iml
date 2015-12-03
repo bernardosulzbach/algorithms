@@ -6,12 +6,14 @@
       <sourceFolder url="file://$MODULE_DIR$/benchmark/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/benchmark/counting_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/bst.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/counting_sort.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/distance.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/distance.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/point.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/point.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/bst.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/counting_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/distance.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/main.cpp" isTestSource="false" />
@@ -40,10 +42,11 @@
         <excluded>
           <root url="file://$MODULE_DIR$/src/point.hpp" />
           <root url="file://$MODULE_DIR$/src/distance.hpp" />
-          <root url="file://$MODULE_DIR$/src/point.cpp" />
+          <root url="file://$MODULE_DIR$/src/bst.hpp" />
           <root url="file://$MODULE_DIR$/src/distance.cpp" />
-          <root url="file://$MODULE_DIR$/src/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/src/point.cpp" />
           <root url="file://$MODULE_DIR$/src/counting_sort.hpp" />
+          <root url="file://$MODULE_DIR$/src/CMakeLists.txt" />
         </excluded>
       </library>
     </orderEntry>
