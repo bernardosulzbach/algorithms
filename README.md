@@ -1,36 +1,32 @@
 # Algorithms
 
-A repository with clear and readable implementations of common algorithms and data structures.
+A repository with clear and readable implementations of common algorithms and
+data structures.
 
 ## Structure
-
-`lib`: third-party libraries
 
 `src`: algorithms and data structures source code
 
 `test`: test code
 
-## Developing and building
+`cpp`: C++ code (being translated to Python)
 
-We use (and highly recommend) CLion to work with and build this project.
+## Features
 
-### Using the console
++ O(lg n) Fibonacci sequence number retrieval implementation
 
-To build the project and run all tests using the command line:
+## Contributing
 
-    $ mkdir build
-    $ cd build
-    $ cmake ..
-    $ make
-    $ ./test/tests
+### Tools
 
-## Writing tests
+PyCharm has proven to be a fantastic IDE which we **strongly** recommend.
 
-Use the `TEST_CASE` macro to define a test case. It takes one or two arguments - a free form test name and, optionally,
-one or more tags. The test name must be unique.
+### Running tests
 
-Inside a test case, use `REQUIRE` and pass to it a condition that should evaluate to true. You can also use `SECTION` to
-achieve more elaborate tests. For each `SECTION` the `TEST_CASE` is evaluated from the start. A nested `SECTION` will
-run after all its encompassing `SECTION`s.
+To run all tests using the command line:
 
-**All tests should pass**.
+    $ nosetests
+
+## License
+
+This project is licensed under the BSD 3-Clause license.
