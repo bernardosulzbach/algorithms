@@ -3,3 +3,6 @@ build/
 
 # CLion
 .idea/workspace.xml
+
+# Python
+__pycache__/
