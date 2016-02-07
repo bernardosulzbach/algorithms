@@ -5,11 +5,9 @@ data structures.
 
 ## Structure
 
-`src`: algorithms and data structures source code
-
-`test`: test code
-
-`cpp`: C++ code (being translated to Python)
+    src  : algorithms and data structures source code
+    test : test code
+    cpp  : C++ code (being translated to Python)
 
 ## Features
 
