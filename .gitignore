@@ -1,8 +1,5 @@
-# CMake
-build/
-
-# CLion
-.idea/workspace.xml
+# PyCharm
+.idea/
 
 # Python
 __pycache__/
