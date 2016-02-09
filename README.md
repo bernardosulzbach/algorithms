@@ -1,5 +1,8 @@
 # Algorithms
 
+[![Build Status](https://travis-ci.org/mafagafogigante/algorithms.svg?branch=master)](https://travis-ci.org/mafagafogigante/algorithms)
+[![Code Issues](https://www.quantifiedcode.com/api/v1/project/c024eba546254fb28299e0b8c3dfcccb/badge.svg)](https://www.quantifiedcode.com/app/project/c024eba546254fb28299e0b8c3dfcccb)
+
 A repository with clear and readable implementations of common algorithms and
 data structures.
 
