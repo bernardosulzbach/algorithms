@@ -1,5 +1,5 @@
 """
-Several implementations of Fibonacci sequence number finders, including a very efficient sublinear pure Python one.
+Implementations of Fibonacci and Lucas sequence number finders, including a very efficient sublinear pure Python one.
 """
 
 
@@ -96,3 +96,24 @@ def fibonacci(position):
     :param position: the position of the number in the Fibonacci sequence
     """
     return _fast_sublinear_multiplicative(position)
+
+
+def lucas(position):
+    """
+    Returns the n-th Lucas number.
+
+    This function's time-complexity is O(lg n).
+
+    :param position: the position of the number in the Lucas sequence
+    """
+    # Use the same (simplified) matrix we use for Fibonacci numbers, then apply to the initial state vector for Lucas.
+    assert position >= 0, 'position should be nonnegative'
+    if position == 0:
+        return 2
+    elif position == 1:
+        return 1
+    else:
+        triplet = _fast_matrix_sublinear_power(position - 1)
+        # |L(n    )| = |1 1|ⁿ  |1|
+        # |L(n - 1)|   |1 0|   |2|
+        return triplet[0] + triplet[1] * 2
